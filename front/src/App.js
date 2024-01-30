@@ -29,9 +29,7 @@ function App() {
   return (
     <BrowserRouter>
       <MainTitleText>Diary</MainTitleText>
-      <div>
-        <p>서버에서 가져온 값 : {data}</p>
-      </div>
+      <div>{/* <p>서버에서 가져온 값 : {data}</p> */}</div>
       <Routes>
         <Route index element={<MainPage />} />
         <Route path="post-write" element={<PostWritePage />} />
